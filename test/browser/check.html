@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>nld-ts browser check</title>
+  </head>
+  <body>
+    <h1>nld-ts browser check</h1>
+    <p>Runs the conformance fixtures against the built bundles, in this browser.</p>
+    <pre id="status">running</pre>
+    <pre id="result" hidden></pre>
+    <!-- The classic-script build defines window.Nld; the module below imports the ESM build. -->
+    <script src="/dist/nld.global.min.js"></script>
+    <script type="module" src="/dist-test/browser-check.js"></script>
+  </body>
+</html>
