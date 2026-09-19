@@ -1,0 +1,20 @@
+# dependencies
+/node_modules/
+
+# build and test output
+/dist/
+/dist-test/
+/coverage/
+*.tsbuildinfo
+
+# local demo, not part of the library
+/demo/
+
+# temporary and editor files
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
